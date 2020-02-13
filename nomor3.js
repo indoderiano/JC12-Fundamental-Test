@@ -4,21 +4,22 @@ function cekkoin(koin){
     var keping=0
 
     // to check what koin
-    var arr=[]
+    // var arr=[]
 
     sen.forEach((val)=>{
         var tambah=Math.floor(koin/val)
         keping+=tambah
         koin-=tambah*val
         // to check
-        for(var i=0;i<tambah;i++){
-            arr.push(val)
-        }
+        // for(var i=0;i<tambah;i++){
+        //     arr.push(val)
+        // }
     })
     // console.log(koin)
 
     // display what koin as change
-    console.log(arr)
+    // console.log(arr)
+
     return keping
 }
 
